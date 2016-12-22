@@ -34,6 +34,10 @@
             %li{:class => "#{'active' if params[:controller] == 'New Tweet'}"}
               = link_to "New Tweet", new_tweet_path
           %ul.nav.navbar-nav.navbar-right
+            %form.navbar-form.navbar-left
+              .form-group
+                %input.form-control.search-tweets{placeholder: "Search", type: "text"}/
+              %button.btn.btn-default.search-button{type: "submit"} Submit
             %li
               - if user_signed_in?
                 = link_to destroy_user_session_path, method: :delete do
@@ -41,6 +45,7 @@
                   Sign out
               - else
                 = link_to "Sign in", new_user_session_path
+
 
     .container
       - flash.each do |name, msg|
