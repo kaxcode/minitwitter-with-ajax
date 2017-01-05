@@ -1,6 +1,6 @@
 ### Purpose ###
 To create a basic rails app that looks like twitter.
-
+https://shrouded-anchorage-75670.herokuapp.com/
 - - - -
 ### How ###
 1. Change the root to the index path in routes.rb
@@ -24,6 +24,4 @@ To create a basic rails app that looks like twitter.
 
 - - - -
 ### Result ###
-https://shrouded-anchorage-75670.herokuapp.com/
-app/assets/images/twitter-heroku-app.png
-![Alt text](app/assets/images/minitwitter-with-authentication.png) "End result of mini twitter"
+![Alt text](app/assets/images/minitwitter-with-authentication.png)
